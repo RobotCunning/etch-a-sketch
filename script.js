@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){  
     getSize()
     //createCanvas();
-    changeColour()
     //reloadCanvas(); 
     //changeSize();
     //reloadCanvas();
