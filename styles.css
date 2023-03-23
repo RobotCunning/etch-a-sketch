@@ -12,6 +12,58 @@ h3{
 
 button{
     padding: 3px 8px;
+    width: 65%;
+    border:none;
+    margin: 2px;
+    border-radius: 8%;
+    font-family: inherit;
+}
+
+.blkButton{
+    background-color: black;
+    
+    font-weight: 300;
+    color : white;
+}
+
+.rndmButton {
+    background: linear-gradient(290deg, #21e3b1, #21cce3, #d7c1f2, #f0c1f2);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+.size-value {
+    margin-bottom: -20px;
+    font-size: 20px;
+  }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+
+input {
+    width: 100%;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
 }
 body{
     font-family: 'Dosis', sans-serif;
